@@ -6,7 +6,8 @@ namespace Practice
 	{
 		public static void Main (string[] args)
 		{
-			Start:
+		// dcmm
+			
 			Random numgen = new Random ();
 			int num1 = numgen.Next(10 , 31) ;
 			int num2 = numgen.Next (10, 31);
@@ -45,7 +46,7 @@ namespace Practice
 				}
 			}
 			Console.ReadKey();
-			goto Start;
+			
 
 		}
 	}
